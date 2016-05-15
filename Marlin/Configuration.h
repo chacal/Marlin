@@ -53,6 +53,10 @@
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_RAMPS_13_EFB
+  // when moving with lcd board units increased in x4 steps
+  // this makes sure to have a single unit resolution
+  #define ENCODER_PULSES_PER_STEP 	4
+  #define ENCODER_STEPS_PER_MENU_ITEM 	1
 #endif
 
 // Define this to set a custom name for your generic Mendel,
