@@ -171,9 +171,9 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Sunhokey E3D-v6
-    #define  DEFAULT_Kp 37.98
-    #define  DEFAULT_Ki 4.71
-    #define  DEFAULT_Kd 76.54
+    #define  DEFAULT_Kp 32.64
+    #define  DEFAULT_Ki 3.53
+    #define  DEFAULT_Kd 75.55
 
 // MakerGear
 //    #define  DEFAULT_Kp 7.0
