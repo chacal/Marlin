@@ -1511,7 +1511,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { 37, 20, -1.27 } // Z: old EEPROM probe offset 1.35 - Orca Z offset 0.08; verify first layer
+#define NOZZLE_TO_PROBE_OFFSET { 37, 20, -1.35 } // Z: set from first-layer prints 2026-11-11
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
